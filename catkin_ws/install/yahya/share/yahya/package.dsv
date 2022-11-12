@@ -1,0 +1,8 @@
+source;share/yahya/hook/cmake_prefix_path.ps1
+source;share/yahya/hook/cmake_prefix_path.dsv
+source;share/yahya/hook/cmake_prefix_path.sh
+source;share/yahya/local_setup.bash
+source;share/yahya/local_setup.dsv
+source;share/yahya/local_setup.ps1
+source;share/yahya/local_setup.sh
+source;share/yahya/local_setup.zsh

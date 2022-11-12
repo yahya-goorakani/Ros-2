@@ -1,0 +1,6 @@
+Invoking command in '/home/yahya/Documents/C-Codes/ROS2/catkin_ws/build/yahya': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yahya/Documents/C-Codes/ROS2/catkin_ws/src/yahya -DCMAKE_INSTALL_PREFIX=/home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya
+Invoked command in '/home/yahya/Documents/C-Codes/ROS2/catkin_ws/build/yahya' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yahya/Documents/C-Codes/ROS2/catkin_ws/src/yahya -DCMAKE_INSTALL_PREFIX=/home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya
+Invoking command in '/home/yahya/Documents/C-Codes/ROS2/catkin_ws/build/yahya': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yahya/Documents/C-Codes/ROS2/catkin_ws/build/yahya -- -j4 -l4
+Invoked command in '/home/yahya/Documents/C-Codes/ROS2/catkin_ws/build/yahya' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yahya/Documents/C-Codes/ROS2/catkin_ws/build/yahya -- -j4 -l4
+Invoking command in '/home/yahya/Documents/C-Codes/ROS2/catkin_ws/build/yahya': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yahya/Documents/C-Codes/ROS2/catkin_ws/build/yahya
+Invoked command in '/home/yahya/Documents/C-Codes/ROS2/catkin_ws/build/yahya' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yahya/Documents/C-Codes/ROS2/catkin_ws/build/yahya

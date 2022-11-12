@@ -1,0 +1,42 @@
+[0.165s] Invoking command in '/home/yahya/Documents/C-Codes/ROS2/catkin_ws/build/yahya': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yahya/Documents/C-Codes/ROS2/catkin_ws/src/yahya -DCMAKE_INSTALL_PREFIX=/home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya
+[1.909s] -- The C compiler identification is GNU 11.3.0
+[2.761s] -- The CXX compiler identification is GNU 11.3.0
+[2.896s] -- Detecting C compiler ABI info
+[3.107s] -- Detecting C compiler ABI info - done
+[3.130s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.223s] -- Detecting C compile features
+[3.247s] -- Detecting C compile features - done
+[3.285s] -- Detecting CXX compiler ABI info
+[3.445s] -- Detecting CXX compiler ABI info - done
+[3.458s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.458s] -- Detecting CXX compile features
+[3.459s] -- Detecting CXX compile features - done
+[3.628s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.964s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[4.251s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.436s] -- Added test 'lint_cmake' to check CMake code style
+[4.438s] -- Added test 'xmllint' to check XML markup files
+[4.440s] -- Configuring done
+[4.444s] -- Generating done
+[4.445s] -- Build files have been written to: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/build/yahya
+[4.452s] Invoked command in '/home/yahya/Documents/C-Codes/ROS2/catkin_ws/build/yahya' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yahya/Documents/C-Codes/ROS2/catkin_ws/src/yahya -DCMAKE_INSTALL_PREFIX=/home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya
+[4.459s] Invoking command in '/home/yahya/Documents/C-Codes/ROS2/catkin_ws/build/yahya': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yahya/Documents/C-Codes/ROS2/catkin_ws/build/yahya -- -j4 -l4
+[4.499s] Invoked command in '/home/yahya/Documents/C-Codes/ROS2/catkin_ws/build/yahya' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yahya/Documents/C-Codes/ROS2/catkin_ws/build/yahya -- -j4 -l4
+[4.532s] Invoking command in '/home/yahya/Documents/C-Codes/ROS2/catkin_ws/build/yahya': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yahya/Documents/C-Codes/ROS2/catkin_ws/build/yahya
+[4.540s] -- Install configuration: ""
+[4.541s] -- Installing: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/ament_index/resource_index/package_run_dependencies/yahya
+[4.541s] -- Installing: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/ament_index/resource_index/parent_prefix_path/yahya
+[4.541s] -- Installing: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/environment/ament_prefix_path.sh
+[4.541s] -- Installing: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/environment/ament_prefix_path.dsv
+[4.542s] -- Installing: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/environment/path.sh
+[4.542s] -- Installing: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/environment/path.dsv
+[4.542s] -- Installing: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/local_setup.bash
+[4.542s] -- Installing: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/local_setup.sh
+[4.543s] -- Installing: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/local_setup.zsh
+[4.543s] -- Installing: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/local_setup.dsv
+[4.543s] -- Installing: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/package.dsv
+[4.544s] -- Installing: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/ament_index/resource_index/packages/yahya
+[4.544s] -- Installing: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/cmake/yahyaConfig.cmake
+[4.544s] -- Installing: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/cmake/yahyaConfig-version.cmake
+[4.545s] -- Installing: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/package.xml
+[4.548s] Invoked command in '/home/yahya/Documents/C-Codes/ROS2/catkin_ws/build/yahya' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yahya/Documents/C-Codes/ROS2/catkin_ws/build/yahya

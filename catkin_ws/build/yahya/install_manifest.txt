@@ -1,0 +1,17 @@
+/home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/lib/yahya/talker
+/home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/lib/yahya/listener
+/home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/ament_index/resource_index/package_run_dependencies/yahya
+/home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/ament_index/resource_index/parent_prefix_path/yahya
+/home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/environment/ament_prefix_path.sh
+/home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/environment/ament_prefix_path.dsv
+/home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/environment/path.sh
+/home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/environment/path.dsv
+/home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/local_setup.bash
+/home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/local_setup.sh
+/home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/local_setup.zsh
+/home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/local_setup.dsv
+/home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/package.dsv
+/home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/ament_index/resource_index/packages/yahya
+/home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/cmake/yahyaConfig.cmake
+/home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/cmake/yahyaConfig-version.cmake
+/home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/package.xml

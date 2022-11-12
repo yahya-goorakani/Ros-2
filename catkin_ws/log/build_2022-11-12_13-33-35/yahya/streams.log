@@ -1,0 +1,20 @@
+[0.027s] Invoking command in '/home/yahya/Documents/C-Codes/ROS2/catkin_ws/build/yahya': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yahya/Documents/C-Codes/ROS2/catkin_ws/build/yahya -- -j4 -l4
+[0.067s] Invoked command in '/home/yahya/Documents/C-Codes/ROS2/catkin_ws/build/yahya' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yahya/Documents/C-Codes/ROS2/catkin_ws/build/yahya -- -j4 -l4
+[0.098s] Invoking command in '/home/yahya/Documents/C-Codes/ROS2/catkin_ws/build/yahya': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yahya/Documents/C-Codes/ROS2/catkin_ws/build/yahya
+[0.110s] -- Install configuration: ""
+[0.110s] -- Up-to-date: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/ament_index/resource_index/package_run_dependencies/yahya
+[0.111s] -- Up-to-date: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/ament_index/resource_index/parent_prefix_path/yahya
+[0.111s] -- Up-to-date: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/environment/ament_prefix_path.sh
+[0.111s] -- Up-to-date: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/environment/ament_prefix_path.dsv
+[0.111s] -- Up-to-date: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/environment/path.sh
+[0.112s] -- Up-to-date: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/environment/path.dsv
+[0.112s] -- Up-to-date: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/local_setup.bash
+[0.112s] -- Up-to-date: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/local_setup.sh
+[0.112s] -- Up-to-date: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/local_setup.zsh
+[0.113s] -- Up-to-date: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/local_setup.dsv
+[0.113s] -- Up-to-date: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/package.dsv
+[0.113s] -- Up-to-date: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/ament_index/resource_index/packages/yahya
+[0.113s] -- Up-to-date: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/cmake/yahyaConfig.cmake
+[0.113s] -- Up-to-date: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/cmake/yahyaConfig-version.cmake
+[0.114s] -- Up-to-date: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/package.xml
+[0.118s] Invoked command in '/home/yahya/Documents/C-Codes/ROS2/catkin_ws/build/yahya' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yahya/Documents/C-Codes/ROS2/catkin_ws/build/yahya

@@ -1,0 +1,177 @@
+[0.000000] (-) TimerEvent: {}
+[0.000202] (yahya) JobQueued: {'identifier': 'yahya', 'dependencies': OrderedDict()}
+[0.000270] (yahya) JobStarted: {'identifier': 'yahya'}
+[0.028373] (yahya) JobProgress: {'identifier': 'yahya', 'progress': 'cmake'}
+[0.029315] (yahya) JobProgress: {'identifier': 'yahya', 'progress': 'build'}
+[0.030209] (yahya) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yahya/Documents/C-Codes/ROS2/catkin_ws/build/yahya', '--', '-j4', '-l4'], 'cwd': '/home/yahya/Documents/C-Codes/ROS2/catkin_ws/build/yahya', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LC_TIME', 'ru_RU.UTF-8'), ('USER', 'yahya'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yahya'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/yahya/Documents/C-Codes/ROS2/catkin_ws/src/yahya/src'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.73.1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ZSH', '/home/yahya/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('MANAGERPID', '1684'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2192'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6351'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/yahya/Documents/C-Codes/ROS2/catkin_ws/install'), ('LOGNAME', 'yahya'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:32867'), ('XDG_SESSION_CLASS', 'user'), ('USER_ZDOTDIR', '/home/yahya'), ('ROS_VERSION', '2'), ('USERNAME', 'yahya'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/yahya/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/finish-it.local:@/tmp/.ICE-unix/2129,unix/finish-it.local:/tmp/.ICE-unix/2129'), ('INVOCATION_ID', '77307ccbeef0406d915d6b1a764e5c40'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_MENU_PREFIX', 'gnome-'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('VSCODE_INJECTION', '1'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e3396912df.sock'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('AMENT_PREFIX_PATH', '/home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya:/opt/ros/humble'), ('LC_NAME', 'ru_RU.UTF-8'), ('SHELL', '/uer/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/yahya/Documents/C-Codes/ROS2/catkin_ws/build/yahya'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ZDOTDIR', '/home/yahya'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya:/opt/ros/humble')]), 'shell': False}
+[0.077928] (yahya) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[0.078266] (yahya) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.097471] (-) TimerEvent: {}
+[0.099823] (yahya) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/say_hello.cpp.o\x1b[0m\n'}
+[0.108110] (yahya) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/listen_hello.cpp.o\x1b[0m\n'}
+[0.197593] (-) TimerEvent: {}
+[0.298006] (-) TimerEvent: {}
+[0.398413] (-) TimerEvent: {}
+[0.498850] (-) TimerEvent: {}
+[0.599290] (-) TimerEvent: {}
+[0.699714] (-) TimerEvent: {}
+[0.800152] (-) TimerEvent: {}
+[0.900588] (-) TimerEvent: {}
+[1.001021] (-) TimerEvent: {}
+[1.101436] (-) TimerEvent: {}
+[1.201853] (-) TimerEvent: {}
+[1.302288] (-) TimerEvent: {}
+[1.402716] (-) TimerEvent: {}
+[1.503140] (-) TimerEvent: {}
+[1.603579] (-) TimerEvent: {}
+[1.704031] (-) TimerEvent: {}
+[1.804456] (-) TimerEvent: {}
+[1.904910] (-) TimerEvent: {}
+[2.005345] (-) TimerEvent: {}
+[2.105778] (-) TimerEvent: {}
+[2.206223] (-) TimerEvent: {}
+[2.306667] (-) TimerEvent: {}
+[2.407106] (-) TimerEvent: {}
+[2.507535] (-) TimerEvent: {}
+[2.607996] (-) TimerEvent: {}
+[2.708426] (-) TimerEvent: {}
+[2.808866] (-) TimerEvent: {}
+[2.909300] (-) TimerEvent: {}
+[3.009729] (-) TimerEvent: {}
+[3.110166] (-) TimerEvent: {}
+[3.210621] (-) TimerEvent: {}
+[3.311033] (-) TimerEvent: {}
+[3.411467] (-) TimerEvent: {}
+[3.511907] (-) TimerEvent: {}
+[3.612366] (-) TimerEvent: {}
+[3.712817] (-) TimerEvent: {}
+[3.813252] (-) TimerEvent: {}
+[3.913690] (-) TimerEvent: {}
+[4.014130] (-) TimerEvent: {}
+[4.114563] (-) TimerEvent: {}
+[4.215009] (-) TimerEvent: {}
+[4.315431] (-) TimerEvent: {}
+[4.415874] (-) TimerEvent: {}
+[4.516305] (-) TimerEvent: {}
+[4.616738] (-) TimerEvent: {}
+[4.717174] (-) TimerEvent: {}
+[4.817611] (-) TimerEvent: {}
+[4.918052] (-) TimerEvent: {}
+[5.018479] (-) TimerEvent: {}
+[5.118921] (-) TimerEvent: {}
+[5.219363] (-) TimerEvent: {}
+[5.319780] (-) TimerEvent: {}
+[5.420209] (-) TimerEvent: {}
+[5.520637] (-) TimerEvent: {}
+[5.621089] (-) TimerEvent: {}
+[5.721513] (-) TimerEvent: {}
+[5.821941] (-) TimerEvent: {}
+[5.922374] (-) TimerEvent: {}
+[6.022810] (-) TimerEvent: {}
+[6.123248] (-) TimerEvent: {}
+[6.223679] (-) TimerEvent: {}
+[6.324072] (-) TimerEvent: {}
+[6.424473] (-) TimerEvent: {}
+[6.524892] (-) TimerEvent: {}
+[6.625282] (-) TimerEvent: {}
+[6.725683] (-) TimerEvent: {}
+[6.826106] (-) TimerEvent: {}
+[6.862673] (yahya) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[6.926243] (-) TimerEvent: {}
+[7.026728] (-) TimerEvent: {}
+[7.127170] (-) TimerEvent: {}
+[7.161467] (yahya) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[7.227288] (-) TimerEvent: {}
+[7.327728] (-) TimerEvent: {}
+[7.428142] (-) TimerEvent: {}
+[7.528577] (-) TimerEvent: {}
+[7.629012] (-) TimerEvent: {}
+[7.729462] (-) TimerEvent: {}
+[7.829896] (-) TimerEvent: {}
+[7.930294] (-) TimerEvent: {}
+[8.030762] (-) TimerEvent: {}
+[8.131196] (-) TimerEvent: {}
+[8.231622] (-) TimerEvent: {}
+[8.332049] (-) TimerEvent: {}
+[8.432469] (-) TimerEvent: {}
+[8.532903] (-) TimerEvent: {}
+[8.633312] (-) TimerEvent: {}
+[8.733698] (-) TimerEvent: {}
+[8.834086] (-) TimerEvent: {}
+[8.934477] (-) TimerEvent: {}
+[9.034884] (-) TimerEvent: {}
+[9.135268] (-) TimerEvent: {}
+[9.235635] (-) TimerEvent: {}
+[9.336010] (-) TimerEvent: {}
+[9.436372] (-) TimerEvent: {}
+[9.536728] (-) TimerEvent: {}
+[9.637090] (-) TimerEvent: {}
+[9.737477] (-) TimerEvent: {}
+[9.837896] (-) TimerEvent: {}
+[9.938265] (-) TimerEvent: {}
+[10.038648] (-) TimerEvent: {}
+[10.139066] (-) TimerEvent: {}
+[10.239433] (-) TimerEvent: {}
+[10.339831] (-) TimerEvent: {}
+[10.440233] (-) TimerEvent: {}
+[10.540596] (-) TimerEvent: {}
+[10.640982] (-) TimerEvent: {}
+[10.741355] (-) TimerEvent: {}
+[10.841718] (-) TimerEvent: {}
+[10.942082] (-) TimerEvent: {}
+[11.042447] (-) TimerEvent: {}
+[11.142828] (-) TimerEvent: {}
+[11.243214] (-) TimerEvent: {}
+[11.343619] (-) TimerEvent: {}
+[11.444047] (-) TimerEvent: {}
+[11.544459] (-) TimerEvent: {}
+[11.644886] (-) TimerEvent: {}
+[11.745296] (-) TimerEvent: {}
+[11.845680] (-) TimerEvent: {}
+[11.946093] (-) TimerEvent: {}
+[12.046474] (-) TimerEvent: {}
+[12.146840] (-) TimerEvent: {}
+[12.247372] (-) TimerEvent: {}
+[12.348524] (-) TimerEvent: {}
+[12.448909] (-) TimerEvent: {}
+[12.549384] (-) TimerEvent: {}
+[12.649782] (-) TimerEvent: {}
+[12.750166] (-) TimerEvent: {}
+[12.850555] (-) TimerEvent: {}
+[12.950934] (-) TimerEvent: {}
+[13.051388] (-) TimerEvent: {}
+[13.062208] (yahya) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[13.151553] (-) TimerEvent: {}
+[13.252042] (-) TimerEvent: {}
+[13.352437] (-) TimerEvent: {}
+[13.452850] (-) TimerEvent: {}
+[13.553266] (-) TimerEvent: {}
+[13.642708] (yahya) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[13.653412] (-) TimerEvent: {}
+[13.654816] (yahya) CommandEnded: {'returncode': 0}
+[13.684814] (yahya) JobProgress: {'identifier': 'yahya', 'progress': 'install'}
+[13.694157] (yahya) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yahya/Documents/C-Codes/ROS2/catkin_ws/build/yahya'], 'cwd': '/home/yahya/Documents/C-Codes/ROS2/catkin_ws/build/yahya', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LC_TIME', 'ru_RU.UTF-8'), ('USER', 'yahya'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yahya'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/yahya/Documents/C-Codes/ROS2/catkin_ws/src/yahya/src'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.73.1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ZSH', '/home/yahya/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('MANAGERPID', '1684'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2192'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6351'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/yahya/Documents/C-Codes/ROS2/catkin_ws/install'), ('LOGNAME', 'yahya'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:32867'), ('XDG_SESSION_CLASS', 'user'), ('USER_ZDOTDIR', '/home/yahya'), ('ROS_VERSION', '2'), ('USERNAME', 'yahya'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/yahya/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/finish-it.local:@/tmp/.ICE-unix/2129,unix/finish-it.local:/tmp/.ICE-unix/2129'), ('INVOCATION_ID', '77307ccbeef0406d915d6b1a764e5c40'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_MENU_PREFIX', 'gnome-'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('VSCODE_INJECTION', '1'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e3396912df.sock'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('AMENT_PREFIX_PATH', '/home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya:/opt/ros/humble'), ('LC_NAME', 'ru_RU.UTF-8'), ('SHELL', '/uer/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/yahya/Documents/C-Codes/ROS2/catkin_ws/build/yahya'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ZDOTDIR', '/home/yahya'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya:/opt/ros/humble')]), 'shell': False}
+[13.703077] (yahya) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.703465] (yahya) StdoutLine: {'line': b'-- Installing: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/lib/yahya/talker\n'}
+[13.705597] (yahya) StdoutLine: {'line': b'-- Set runtime path of "/home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/lib/yahya/talker" to ""\n'}
+[13.705989] (yahya) StdoutLine: {'line': b'-- Installing: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/lib/yahya/listener\n'}
+[13.711457] (yahya) StdoutLine: {'line': b'-- Set runtime path of "/home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/lib/yahya/listener" to ""\n'}
+[13.711971] (yahya) StdoutLine: {'line': b'-- Up-to-date: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/ament_index/resource_index/package_run_dependencies/yahya\n'}
+[13.712295] (yahya) StdoutLine: {'line': b'-- Up-to-date: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/ament_index/resource_index/parent_prefix_path/yahya\n'}
+[13.712597] (yahya) StdoutLine: {'line': b'-- Up-to-date: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/environment/ament_prefix_path.sh\n'}
+[13.712813] (yahya) StdoutLine: {'line': b'-- Up-to-date: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/environment/ament_prefix_path.dsv\n'}
+[13.713124] (yahya) StdoutLine: {'line': b'-- Up-to-date: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/environment/path.sh\n'}
+[13.713372] (yahya) StdoutLine: {'line': b'-- Up-to-date: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/environment/path.dsv\n'}
+[13.713566] (yahya) StdoutLine: {'line': b'-- Up-to-date: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/local_setup.bash\n'}
+[13.713768] (yahya) StdoutLine: {'line': b'-- Up-to-date: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/local_setup.sh\n'}
+[13.713980] (yahya) StdoutLine: {'line': b'-- Up-to-date: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/local_setup.zsh\n'}
+[13.714164] (yahya) StdoutLine: {'line': b'-- Up-to-date: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/local_setup.dsv\n'}
+[13.714346] (yahya) StdoutLine: {'line': b'-- Installing: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/package.dsv\n'}
+[13.714531] (yahya) StdoutLine: {'line': b'-- Up-to-date: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/ament_index/resource_index/packages/yahya\n'}
+[13.714716] (yahya) StdoutLine: {'line': b'-- Up-to-date: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/cmake/yahyaConfig.cmake\n'}
+[13.714898] (yahya) StdoutLine: {'line': b'-- Up-to-date: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/cmake/yahyaConfig-version.cmake\n'}
+[13.715288] (yahya) StdoutLine: {'line': b'-- Up-to-date: /home/yahya/Documents/C-Codes/ROS2/catkin_ws/install/yahya/share/yahya/package.xml\n'}
+[13.715972] (yahya) CommandEnded: {'returncode': 0}
+[13.753559] (-) TimerEvent: {}
+[13.807759] (yahya) JobEnded: {'identifier': 'yahya', 'rc': 0}
+[13.808796] (-) EventReactorShutdown: {}

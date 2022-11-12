@@ -1,0 +1,32 @@
+[0.900s] Invoking command in '/home/yahya/Documents/yahyagoorakaniTA/ros2_ws/src/image_pubsub': PYTHONPATH=/home/yahya/Documents/yahyagoorakaniTA/ros2_ws/install/image_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/image_pubsub build --build-base /home/yahya/Documents/yahyagoorakaniTA/ros2_ws/build/image_pubsub/build install --prefix /home/yahya/Documents/yahyagoorakaniTA/ros2_ws/install/image_pubsub --record /home/yahya/Documents/yahyagoorakaniTA/ros2_ws/build/image_pubsub/install.log --single-version-externally-managed
+[1.249s] running egg_info
+[1.250s] writing ../../build/image_pubsub/image_pubsub.egg-info/PKG-INFO
+[1.250s] writing dependency_links to ../../build/image_pubsub/image_pubsub.egg-info/dependency_links.txt
+[1.251s] writing entry points to ../../build/image_pubsub/image_pubsub.egg-info/entry_points.txt
+[1.251s] writing requirements to ../../build/image_pubsub/image_pubsub.egg-info/requires.txt
+[1.251s] writing top-level names to ../../build/image_pubsub/image_pubsub.egg-info/top_level.txt
+[1.253s] reading manifest file '../../build/image_pubsub/image_pubsub.egg-info/SOURCES.txt'
+[1.254s] writing manifest file '../../build/image_pubsub/image_pubsub.egg-info/SOURCES.txt'
+[1.254s] running build
+[1.255s] running build_py
+[1.255s] copying image_pubsub/sub.py -> /home/yahya/Documents/yahyagoorakaniTA/ros2_ws/build/image_pubsub/build/lib/image_pubsub
+[1.255s] copying image_pubsub/pub.py -> /home/yahya/Documents/yahyagoorakaniTA/ros2_ws/build/image_pubsub/build/lib/image_pubsub
+[1.255s] running install
+[1.255s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.255s]   warnings.warn(
+[1.256s] running install_lib
+[1.257s] copying /home/yahya/Documents/yahyagoorakaniTA/ros2_ws/build/image_pubsub/build/lib/image_pubsub/sub.py -> /home/yahya/Documents/yahyagoorakaniTA/ros2_ws/install/image_pubsub/lib/python3.10/site-packages/image_pubsub
+[1.257s] copying /home/yahya/Documents/yahyagoorakaniTA/ros2_ws/build/image_pubsub/build/lib/image_pubsub/pub.py -> /home/yahya/Documents/yahyagoorakaniTA/ros2_ws/install/image_pubsub/lib/python3.10/site-packages/image_pubsub
+[1.257s] byte-compiling /home/yahya/Documents/yahyagoorakaniTA/ros2_ws/install/image_pubsub/lib/python3.10/site-packages/image_pubsub/sub.py to sub.cpython-310.pyc
+[1.258s] byte-compiling /home/yahya/Documents/yahyagoorakaniTA/ros2_ws/install/image_pubsub/lib/python3.10/site-packages/image_pubsub/pub.py to pub.cpython-310.pyc
+[1.258s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (pub.py, line 29)
+[1.259s] running install_data
+[1.259s] copying package.xml -> /home/yahya/Documents/yahyagoorakaniTA/ros2_ws/install/image_pubsub/share/image_pubsub
+[1.259s] running install_egg_info
+[1.261s] removing '/home/yahya/Documents/yahyagoorakaniTA/ros2_ws/install/image_pubsub/lib/python3.10/site-packages/image_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[1.262s] Copying ../../build/image_pubsub/image_pubsub.egg-info to /home/yahya/Documents/yahyagoorakaniTA/ros2_ws/install/image_pubsub/lib/python3.10/site-packages/image_pubsub-0.0.0-py3.10.egg-info
+[1.263s] running install_scripts
+[1.288s] Installing listener script to /home/yahya/Documents/yahyagoorakaniTA/ros2_ws/install/image_pubsub/lib/image_pubsub
+[1.288s] Installing talker script to /home/yahya/Documents/yahyagoorakaniTA/ros2_ws/install/image_pubsub/lib/image_pubsub
+[1.289s] writing list of installed files to '/home/yahya/Documents/yahyagoorakaniTA/ros2_ws/build/image_pubsub/install.log'
+[1.327s] Invoked command in '/home/yahya/Documents/yahyagoorakaniTA/ros2_ws/src/image_pubsub' returned '0': PYTHONPATH=/home/yahya/Documents/yahyagoorakaniTA/ros2_ws/install/image_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/image_pubsub build --build-base /home/yahya/Documents/yahyagoorakaniTA/ros2_ws/build/image_pubsub/build install --prefix /home/yahya/Documents/yahyagoorakaniTA/ros2_ws/install/image_pubsub --record /home/yahya/Documents/yahyagoorakaniTA/ros2_ws/build/image_pubsub/install.log --single-version-externally-managed

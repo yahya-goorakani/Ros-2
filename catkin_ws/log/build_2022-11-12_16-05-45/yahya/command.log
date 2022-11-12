@@ -1,0 +1,2 @@
+Invoking command in '/home/yahya/Documents/yahyagoorakaniTA/catkin_ws/build/yahya': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yahya/Documents/yahyagoorakaniTA/catkin_ws/build/yahya -- -j4 -l4
+Invoked command in '/home/yahya/Documents/yahyagoorakaniTA/catkin_ws/build/yahya' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yahya/Documents/yahyagoorakaniTA/catkin_ws/build/yahya -- -j4 -l4

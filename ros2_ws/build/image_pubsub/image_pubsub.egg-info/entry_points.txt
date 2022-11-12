@@ -1,0 +1,4 @@
+[console_scripts]
+listener = image_pubsub.sub:main
+talker = image_pubsub.pub:main
+

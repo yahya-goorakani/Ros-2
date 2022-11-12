@@ -1,0 +1,70 @@
+[0.000000] (-) TimerEvent: {}
+[0.000233] (image_pubsub) JobQueued: {'identifier': 'image_pubsub', 'dependencies': OrderedDict()}
+[0.000331] (image_pubsub) JobStarted: {'identifier': 'image_pubsub'}
+[0.097718] (-) TimerEvent: {}
+[0.198024] (-) TimerEvent: {}
+[0.298342] (-) TimerEvent: {}
+[0.406046] (-) TimerEvent: {}
+[0.506652] (-) TimerEvent: {}
+[0.607005] (-) TimerEvent: {}
+[0.707360] (-) TimerEvent: {}
+[0.807915] (-) TimerEvent: {}
+[0.908976] (-) TimerEvent: {}
+[1.009928] (-) TimerEvent: {}
+[1.110550] (-) TimerEvent: {}
+[1.211589] (-) TimerEvent: {}
+[1.312578] (-) TimerEvent: {}
+[1.413665] (-) TimerEvent: {}
+[1.514663] (-) TimerEvent: {}
+[1.615702] (-) TimerEvent: {}
+[1.716751] (-) TimerEvent: {}
+[1.817796] (-) TimerEvent: {}
+[1.918799] (-) TimerEvent: {}
+[2.019281] (-) TimerEvent: {}
+[2.120111] (-) TimerEvent: {}
+[2.221147] (-) TimerEvent: {}
+[2.322106] (-) TimerEvent: {}
+[2.423000] (-) TimerEvent: {}
+[2.523479] (image_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/image_pubsub', 'build', '--build-base', '/home/yahya/Documents/yahyagoorakaniTA/ros2_ws/build/image_pubsub/build', 'install', '--prefix', '/home/yahya/Documents/yahyagoorakaniTA/ros2_ws/install/image_pubsub', '--record', '/home/yahya/Documents/yahyagoorakaniTA/ros2_ws/build/image_pubsub/install.log', '--single-version-externally-managed'], 'cwd': '/home/yahya/Documents/yahyagoorakaniTA/ros2_ws/src/image_pubsub', 'env': {'USER': 'yahya', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/yahya', 'OLDPWD': '/home/yahya/Documents/yahyagoorakaniTA/ros2_ws/src', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/yahya/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'ru_RU.UTF-8', 'SYSTEMD_EXEC_PID': '2173', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b92cfb5d693048aeab1939fd636fc63d', 'DBUS_STARTER_BUS_TYPE': 'session', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'humble', 'LOGNAME': 'yahya', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'yahya', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/yahya/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/finish-it.local:@/tmp/.ICE-unix/2173,unix/finish-it.local:/tmp/.ICE-unix/2173', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f43303cf_a968_4294_931d_5dcdfe8403a0', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_ADDRESS': 'ru_RU.UTF-8', 'DISPLAY': ':1', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.91', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'LC_NAME': 'ru_RU.UTF-8', 'SHELL': '/uer/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/yahya/Documents/yahyagoorakaniTA/ros2_ws/build/image_pubsub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b92cfb5d693048aeab1939fd636fc63d', 'LC_NUMERIC': 'ru_RU.UTF-8', 'PYTHONPATH': '/home/yahya/Documents/yahyagoorakaniTA/ros2_ws/install/image_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.527295] (-) TimerEvent: {}
+[2.627832] (-) TimerEvent: {}
+[2.728157] (-) TimerEvent: {}
+[2.828473] (-) TimerEvent: {}
+[2.881252] (image_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[2.882237] (image_pubsub) StdoutLine: {'line': b'creating ../../build/image_pubsub/image_pubsub.egg-info\n'}
+[2.882644] (image_pubsub) StdoutLine: {'line': b'writing ../../build/image_pubsub/image_pubsub.egg-info/PKG-INFO\n'}
+[2.883017] (image_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/image_pubsub/image_pubsub.egg-info/dependency_links.txt\n'}
+[2.883356] (image_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/image_pubsub/image_pubsub.egg-info/entry_points.txt\n'}
+[2.883682] (image_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/image_pubsub/image_pubsub.egg-info/requires.txt\n'}
+[2.883860] (image_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/image_pubsub/image_pubsub.egg-info/top_level.txt\n'}
+[2.884091] (image_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/image_pubsub/image_pubsub.egg-info/SOURCES.txt'\n"}
+[2.886375] (image_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/image_pubsub/image_pubsub.egg-info/SOURCES.txt'\n"}
+[2.887439] (image_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/image_pubsub/image_pubsub.egg-info/SOURCES.txt'\n"}
+[2.887709] (image_pubsub) StdoutLine: {'line': b'running build\n'}
+[2.887905] (image_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[2.888237] (image_pubsub) StdoutLine: {'line': b'creating /home/yahya/Documents/yahyagoorakaniTA/ros2_ws/build/image_pubsub/build\n'}
+[2.888483] (image_pubsub) StdoutLine: {'line': b'creating /home/yahya/Documents/yahyagoorakaniTA/ros2_ws/build/image_pubsub/build/lib\n'}
+[2.888722] (image_pubsub) StdoutLine: {'line': b'creating /home/yahya/Documents/yahyagoorakaniTA/ros2_ws/build/image_pubsub/build/lib/image_pubsub\n'}
+[2.888974] (image_pubsub) StdoutLine: {'line': b'copying image_pubsub/__init__.py -> /home/yahya/Documents/yahyagoorakaniTA/ros2_ws/build/image_pubsub/build/lib/image_pubsub\n'}
+[2.889216] (image_pubsub) StdoutLine: {'line': b'running install\n'}
+[2.901115] (image_pubsub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[2.901389] (image_pubsub) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.901717] (image_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[2.903162] (image_pubsub) StdoutLine: {'line': b'creating /home/yahya/Documents/yahyagoorakaniTA/ros2_ws/install/image_pubsub/lib/python3.10/site-packages/image_pubsub\n'}
+[2.903495] (image_pubsub) StdoutLine: {'line': b'copying /home/yahya/Documents/yahyagoorakaniTA/ros2_ws/build/image_pubsub/build/lib/image_pubsub/__init__.py -> /home/yahya/Documents/yahyagoorakaniTA/ros2_ws/install/image_pubsub/lib/python3.10/site-packages/image_pubsub\n'}
+[2.904147] (image_pubsub) StdoutLine: {'line': b'byte-compiling /home/yahya/Documents/yahyagoorakaniTA/ros2_ws/install/image_pubsub/lib/python3.10/site-packages/image_pubsub/__init__.py to __init__.cpython-310.pyc\n'}
+[2.904488] (image_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[2.905267] (image_pubsub) StdoutLine: {'line': b'creating /home/yahya/Documents/yahyagoorakaniTA/ros2_ws/install/image_pubsub/share/ament_index\n'}
+[2.905569] (image_pubsub) StdoutLine: {'line': b'creating /home/yahya/Documents/yahyagoorakaniTA/ros2_ws/install/image_pubsub/share/ament_index/resource_index\n'}
+[2.905791] (image_pubsub) StdoutLine: {'line': b'creating /home/yahya/Documents/yahyagoorakaniTA/ros2_ws/install/image_pubsub/share/ament_index/resource_index/packages\n'}
+[2.906031] (image_pubsub) StdoutLine: {'line': b'copying resource/image_pubsub -> /home/yahya/Documents/yahyagoorakaniTA/ros2_ws/install/image_pubsub/share/ament_index/resource_index/packages\n'}
+[2.906224] (image_pubsub) StdoutLine: {'line': b'copying package.xml -> /home/yahya/Documents/yahyagoorakaniTA/ros2_ws/install/image_pubsub/share/image_pubsub\n'}
+[2.906421] (image_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.908131] (image_pubsub) StdoutLine: {'line': b'Copying ../../build/image_pubsub/image_pubsub.egg-info to /home/yahya/Documents/yahyagoorakaniTA/ros2_ws/install/image_pubsub/lib/python3.10/site-packages/image_pubsub-0.0.0-py3.10.egg-info\n'}
+[2.909354] (image_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[2.928573] (-) TimerEvent: {}
+[2.935606] (image_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/yahya/Documents/yahyagoorakaniTA/ros2_ws/build/image_pubsub/install.log'\n"}
+[2.971911] (image_pubsub) CommandEnded: {'returncode': 0}
+[3.029243] (-) TimerEvent: {}
+[3.030344] (image_pubsub) JobEnded: {'identifier': 'image_pubsub', 'rc': 0}
+[3.031458] (-) EventReactorShutdown: {}
